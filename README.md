@@ -28,4 +28,14 @@ We have two method which would help for data compression:
 * Lossy Method: Mainly MP3 audio, MPEG video, and JPEG image formats make use of the technique of lossy data technique. Some very crucial techniques of lossy data compression are: DWT (Discrete Wavelet Transform), DCT (Discrete Cosine Transform), Transform Coding.
 
 ### Dimensionality Reduction
-Reducing the dimension of the feature space is called dimensionality reduction.
+Reducing the dimension of the feature space is called dimensionality reduction. We have several technique like:
+*** Feature Elimination:** Where we eliminate non-performance features like student name which dont any link to feature performance. We simply eliminate this features. We have to do EDA to understand which features is to eliminate or not. 
+*** Feature Selection:** This process will help to select the features which need to be eliminated, some of the technique like:
+1. Step-wise forward selection:
+    Example: [here](https://github.com/Pramodgopinathan/DATA_MINING-data_reduction/blob/main/Feature_Selection.ipynb)
+    First we need to Choose a significance level (e.g. SL = 0.05 with a 95% confidence).
+    Fit all possible simple regression models by considering one feature at a time. Total ’n’ models are possible. 
+    Select the feature with the lowest p-value.
+    Fit all possible models with one extra feature added to the previously selected feature(s).
+    Again, select the feature with a minimum p-value. if p_value < significance level then go to Step 3, otherwise terminate the process.
+
