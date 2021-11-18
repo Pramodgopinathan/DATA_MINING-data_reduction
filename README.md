@@ -29,8 +29,8 @@ We have two method which would help for data compression:
 
 ### Dimensionality Reduction
 Reducing the dimension of the feature space is called dimensionality reduction. We have several technique like:
-*** Feature Elimination:** Where we eliminate non-performance features like student name which dont any link to feature performance. We simply eliminate this features. We have to do EDA to understand which features is to eliminate or not. 
-*** Feature Selection:** This process will help to select the features which need to be eliminated, some of the technique like:
+** Feature Elimination:** Where we eliminate non-performance features like student name which dont any link to feature performance. We simply eliminate this features. We have to do EDA to understand which features is to eliminate or not. 
+** Feature Selection:** This process will help to select the features which need to be eliminated, some of the technique like:
 1. Step-wise forward selection:
     Example: [here](https://github.com/Pramodgopinathan/DATA_MINING-data_reduction/blob/main/Feature_Selection.ipynb)
     First we need to Choose a significance level (e.g. SL = 0.05 with a 95% confidence).
